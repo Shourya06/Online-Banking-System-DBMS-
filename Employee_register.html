@@ -41,35 +41,41 @@
 
       <br>
 
-      <form method = "post" action = ".">
+      <form method = "post" action = "/Employee_register_input">
 
         <div class="mb-3 mx-5">
           <label for="empName" class="form-label"></label>
-          <input type="text" class="form-control" placeholder="Empolyee Name" id="empName" required>
+          <input type="text" class="form-control" placeholder="Empolyee Name" id = "empName" name = "empName" required>
         </div>
 
         <div class="row mx-5">
             <div class="col">
-              <input type="text" class="form-control" placeholder="Street" id="Street">
+              <input type="text" class="form-control" placeholder="Street" id = "Street" name = "Street">
             </div>
             <div class="col">
-              <input type="text" class="form-control" placeholder="Area" id = "Area"required>
+              <input type="text" class="form-control" placeholder="Area" id = "Area" name = "Area" required>
             </div>
         </div>
 
         <div class="row mx-5">
             <div class="col">
-              <input type="text" class="form-control" placeholder="City" id = "City" required>
+              <input type="text" class="form-control" placeholder="City" id = "City" name = "City" required>
             </div>
             <div class="col">
-              <input type="text" class="form-control" placeholder="Pincode" id = "Pincode" required>
+              <input type="text" class="form-control" placeholder="Pincode" id = "Pincode" name = "Pincode" required>
             </div>
         </div>
 
         <div class="mb-3 mx-5">
             <label for="custPhoneNo" class="form-label"></label>
-            <input type="text" class="form-control" placeholder="Phone Number" id="custPhoneNo" required>
+            <input type="text" class="form-control" placeholder="Phone Number" id = "custPhoneNo" name = "custPhoneNo" required>
         </div>
+
+        <center> 
+          <strong> 
+            <input type = "submit" value = "Submit"> 
+          </strong>
+        <center>
 
 
         <center> <a href="http://127.0.0.1:5000"> <button class="text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Submit</button> </a> </center>

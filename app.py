@@ -1,5 +1,5 @@
 from flask import Flask, redirect, url_for, render_template, request
-from requests import request
+# from requests import request
 
 import data as db
 
@@ -47,7 +47,7 @@ def Employee_log_reg():
 def Employee_register():
     return render_template("Employee_register.html")
 
-@app.route("/Employee_register", methods = ['POST'])
+@app.route("/Employee_register_input", methods = ['POST'])
 def Employee_register_input():
     empName = request.form['empName']
     Street = request.form['Street']
